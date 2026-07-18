@@ -24,6 +24,32 @@ The value of memory is measured by its usefulness.
 
 Not by its size.
 
+# Relationship With Missions
+
+MISSION.md defines what work is being done.
+
+MEMORY.md defines what knowledge should persist.
+
+A mission produces memories.
+
+A memory improves future missions.
+
+Example:
+
+Mission:
+
+Design HPC architecture.
+
+Memory:
+
+MPI/OpenMP hybrid approach preferred for this hardware.
+
+Future Mission:
+
+Optimize scientific simulation.
+
+The previous decision may influence routing and recommendations.
+
 ---
 
 # Three Levels of Memory
