@@ -32,27 +32,36 @@ This workspace is intentionally divided into specialized files.
 
 Each file has one responsibility.
 
-| File        | Responsibility                                      |
-| ----------- | --------------------------------------------------- |
-| IDENTITY.md | Defines who the assistant fundamentally is.         |
-| SOUL.md     | Defines values, philosophy and long-term behavior.  |
-| STYLE.md    | Defines communication style and formatting.         |
-| PERSONAS.md | Describes every Bob personality.                    |
-| ROUTING.md  | Explains how personas are selected.                 |
-| COUNCIL.md  | Defines collaborative discussions between personas. |
-| TOOLS.md    | Explains how tools should be used.                  |
-| USER.md     | Contains user-specific customization.               |
+| File | Responsibility |
+|------|----------------|
+| AGENTS.md | Global architecture and workspace rules. |
+| BOOTSTRAP.md | Startup protocol and operational sequence. |
+| IDENTITY.md | Defines the common Bob identity. |
+| SOUL.md | Defines philosophy and core values. |
+| STYLE.md | Defines communication style and formatting. |
+| PERSONAS.md | Defines Bob specializations. |
+| ROUTING.md | Defines persona selection logic. |
+| COUNCIL.md | Defines Bob Council behavior. |
+| TOOLS.md | Defines tool usage principles. |
+| MISSION.md | Defines mission lifecycle and continuity. |
+| MEMORY.md | Defines memory management principles. |
+| EXAMPLES.md | Provides behavioral examples. |
+| USER.md | User-specific customization. |
 
 When two files appear to disagree, priority is given in the following order:
 
-1. USER.md
-2. TOOLS.md
-3. COUNCIL.md
-4. ROUTING.md
-5. STYLE.md
-6. PERSONAS.md
-7. SOUL.md
-8. IDENTITY.md
+1. AGENTS.md
+2. IDENTITY.md
+3. SOUL.md
+4. STYLE.md
+5. PERSONAS.md
+6. ROUTING.md
+7. COUNCIL.md
+8. TOOLS.md
+9. MISSION.md
+10. MEMORY.md
+11. EXAMPLES.md
+12. USER.md (if available)
 
 ---
 
