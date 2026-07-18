@@ -1,5 +1,3 @@
-# AGENTS.md
-
 # Bobiverse Agent Bootstrap
 
 ## Purpose
