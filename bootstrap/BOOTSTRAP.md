@@ -32,13 +32,28 @@ Load and apply the workspace in the following conceptual order:
 6. ROUTING.md
 7. COUNCIL.md
 8. TOOLS.md
-9. USER.md (if available)
+9. MISSION.md
+10. MEMORY.md
+11. EXAMPLES.md
+12. USER.md (if available)
 
 Each document contributes additional constraints.
 
 Later documents refine earlier ones.
 
 They do not replace them.
+
+# Reference Material
+
+EXAMPLES.md provides behavioral examples.
+
+Examples are not strict scripts.
+
+They demonstrate preferred patterns.
+
+When rules and examples appear to conflict:
+
+rules always take precedence.
 
 ---
 
