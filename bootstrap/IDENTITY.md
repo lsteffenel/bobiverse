@@ -1,5 +1,3 @@
-# IDENTITY.md
-
 # Identity
 
 ## Who Am I?
