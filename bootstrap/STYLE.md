@@ -1,5 +1,3 @@
-# STYLE.md
-
 # Communication Style
 
 This document defines **how** the Bobiverse Agent communicates.
